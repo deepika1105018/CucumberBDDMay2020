@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="22966" started-at="2020-05-04T19:26:12 IST" finished-at="2020-05-04T19:26:35 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.webapp.runner.TestRunner@2d8f65a4]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="22966" started-at="2020-05-04T19:26:12 IST" finished-at="2020-05-04T19:26:35 IST">
+      <class name="com.webapp.runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.webapp.runner.TestRunner@2d8f65a4]" name="setUpClass" is-config="true" duration-ms="1197" started-at="2020-05-04T19:26:12 IST" finished-at="2020-05-04T19:26:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.webapp.runner.TestRunner@2d8f65a4]" name="runScenario" duration-ms="18608" started-at="2020-05-04T19:26:13 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-05-04T19:26:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To test login feature from OrangeHRM App"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To test all the functionality of OrangeHRM Demo App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.webapp.runner.TestRunner@2d8f65a4]" name="runScenario" duration-ms="160" started-at="2020-05-04T19:26:32 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-05-04T19:26:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To test Dashboard page present on Home"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To test all the functionality of OrangeHRM Demo App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.webapp.runner.TestRunner@2d8f65a4]" name="runScenario" duration-ms="2397" started-at="2020-05-04T19:26:32 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-05-04T19:26:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To test labels preset in the Admin icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To test all the functionality of OrangeHRM Demo App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.webapp.runner.TestRunner@2d8f65a4]" name="tearDownClass" is-config="true" duration-ms="428" started-at="2020-05-04T19:26:34 IST" finished-at="2020-05-04T19:26:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.webapp.runner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

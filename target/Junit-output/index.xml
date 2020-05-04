@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="21.228">
+<testcase classname="To test all the functionality of OrangeHRM Demo App" name="To test login feature from OrangeHRM App" time="18.248">
+<system-out><![CDATA[Given the user launches the url.............................................passed
+When the user login to the App..............................................passed
+Then the user should see the home page "OrangeHRM"..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test all the functionality of OrangeHRM Demo App" name="To test Dashboard page present on Home" time="0.147">
+<system-out><![CDATA[Given the user validates url of the "https://opensource-demo.orangehrmlive.com/index.php/dashboard" current page.passed
+When the user verifies the "Welcome Admin" label on it......................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test all the functionality of OrangeHRM Demo App" name="To test labels preset in the Admin icon" time="2.387">
+<system-out><![CDATA[Given the user clicks admin icon............................................passed
+When the user verifies labels on it.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
