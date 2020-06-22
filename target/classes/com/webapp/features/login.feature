@@ -1,4 +1,4 @@
-@Regression
+@EndToEnd
 Feature: To test all the functionality of OrangeHRM Demo App
 
   @Login

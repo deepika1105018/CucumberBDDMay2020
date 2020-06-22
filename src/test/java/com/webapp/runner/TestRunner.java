@@ -20,7 +20,7 @@ import io.cucumber.testng.CucumberOptions;
 
 		strict = true,
 
-		tags = "@Regression"
+		tags = "EndToEnd"
 
 )
 

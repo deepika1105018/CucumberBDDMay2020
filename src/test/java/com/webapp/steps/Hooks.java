@@ -9,17 +9,7 @@ import io.cucumber.java.BeforeStep;
 
 public class Hooks extends FunctionLibrary {
 
-	/*
-	 * @BeforeStep public void beforeStep() {
-	 * 
-	 * System.out.println("=============Before Step============");
-	 * 
-	 * }
-	 * 
-	 * @AfterStep public void afterStep() {
-	 * System.out.println("===============After Step====================="); }
-	 */
-
+	
 	@Before("@Fb")
 	public void beforeScenario() {
 
@@ -27,21 +17,7 @@ public class Hooks extends FunctionLibrary {
 
 	}
 
-	/*
-	 * @Before(order = 2) public void setUp() {
-	 * 
-	 * System.out.println("============Scenario Started==============");
-	 * 
-	 * }
-	 * 
-	 * @After(order = 2) public void endScenario() {
-	 * 
-	 * System.out.println(driver.getTitle());
-	 * 
-	 * System.out.println(driver.getCurrentUrl());
-	 * 
-	 * }
-	 */
+	
 	@After("@Fb")
 	public void afterScenario() {
 
